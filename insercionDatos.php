@@ -202,7 +202,7 @@ if (isset($_POST["SubmitGuardar"]))  {
 
 $servername = "127.0.0.1";
 $username = "root";
-$password = "Matins";
+$password = "";
 $dbname = "userstest";
 
 // Crear conexión
@@ -236,7 +236,7 @@ if (isset($_POST["SubmitBuscar"])) {
 $lookFor = test_input($_POST["lookFor"]);
 $servername = "127.0.0.1";
 $username = "root";
-$password = "Matins";
+$password = "";
 $dbname = "userstest";
 
 // Crear conexión
